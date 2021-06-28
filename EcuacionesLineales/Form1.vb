@@ -26,4 +26,8 @@
     Private Sub EcuacionesNoLinealesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EcuacionesNoLinealesToolStripMenuItem.Click
         Newton.ShowDialog()
     End Sub
+
+    Private Sub PollinomioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PollinomioToolStripMenuItem.Click
+        PolinomioNewton.ShowDialog()
+    End Sub
 End Class

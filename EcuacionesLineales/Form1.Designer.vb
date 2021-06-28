@@ -31,10 +31,10 @@ Partial Class Form1
         Me.mnuGaussjordann = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuRegresionLS = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuGaussJordan = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.NewtonToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EcuacionesNoLinealesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PollinomioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -100,17 +100,6 @@ Partial Class Form1
         Me.mnuGaussJordan.Size = New System.Drawing.Size(152, 22)
         Me.mnuGaussJordan.Text = "Metodo de Gauss Jordan "
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.EcuacionesLineales.My.Resources.Resources.cramer
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(150, 64)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(172, 176)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
-        '
         'NewtonToolStripMenuItem
         '
         Me.NewtonToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EcuacionesNoLinealesToolStripMenuItem, Me.PollinomioToolStripMenuItem})
@@ -128,7 +117,18 @@ Partial Class Form1
         '
         Me.PollinomioToolStripMenuItem.Name = "PollinomioToolStripMenuItem"
         Me.PollinomioToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
-        Me.PollinomioToolStripMenuItem.Text = "Pollinomio"
+        Me.PollinomioToolStripMenuItem.Text = "Polinomio"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.EcuacionesLineales.My.Resources.Resources.cramer
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Location = New System.Drawing.Point(150, 64)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(172, 176)
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
         '
         'Form1
         '
@@ -139,7 +139,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "Ecuaciones Lineales"
         Me.MenuStrip1.ResumeLayout(False)
