@@ -21,3 +21,28 @@ C:\PROYECTOS\EcuacionesLineales\EcuacionesLineales\obj\Debug\net5.0-windows\Ecua
 C:\PROYECTOS\EcuacionesLineales\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.EM.resources
 C:\PROYECTOS\EcuacionesLineales\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Gauss_Jordan.resources
 C:\PROYECTOS\EcuacionesLineales\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Regresion_lineal_simple.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\bin\Debug\net5.0-windows\EcuacionesLineales.exe
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\bin\Debug\net5.0-windows\EcuacionesLineales.deps.json
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\bin\Debug\net5.0-windows\EcuacionesLineales.runtimeconfig.json
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\bin\Debug\net5.0-windows\EcuacionesLineales.runtimeconfig.dev.json
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\bin\Debug\net5.0-windows\EcuacionesLineales.dll
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\bin\Debug\net5.0-windows\ref\EcuacionesLineales.dll
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\bin\Debug\net5.0-windows\EcuacionesLineales.pdb
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.vbproj.AssemblyReference.cache
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Ejemplo1.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.EM.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Form1.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Gauss_Jordan.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Resources.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Regresion_lineal_simple.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.vbproj.GenerateResource.cache
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.AssemblyInfoInputs.cache
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.AssemblyInfo.vb
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.vbproj.CoreCompileInputs.cache
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.dll
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\ref\EcuacionesLineales.dll
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.pdb
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.genruntimeconfig.cache
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.Newton.resources
+C:\Users\Chris\Documents\metodos numericos\EcuacionesLineales\obj\Debug\net5.0-windows\EcuacionesLineales.PolinomioNewton.resources

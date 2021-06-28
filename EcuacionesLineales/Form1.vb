@@ -22,4 +22,8 @@
     Private Sub mnuRegresionLS_Click(sender As Object, e As EventArgs) Handles mnuRegresionLS.Click
         Regresion_lineal_simple.ShowDialog()
     End Sub
+
+    Private Sub EcuacionesNoLinealesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EcuacionesNoLinealesToolStripMenuItem.Click
+        Newton.ShowDialog()
+    End Sub
 End Class

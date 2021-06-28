@@ -29,9 +29,12 @@ Partial Class Form1
         Me.mnuCramerE1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuEM = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuGaussjordann = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuRegresionLS = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuGaussJordan = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.mnuRegresionLS = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewtonToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EcuacionesNoLinealesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PollinomioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -39,10 +42,11 @@ Partial Class Form1
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuArchivo, Me.mnuCramer, Me.mnuGaussJordan})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuArchivo, Me.mnuCramer, Me.mnuGaussJordan, Me.NewtonToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 33)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 1, 0, 1)
+        Me.MenuStrip1.Size = New System.Drawing.Size(560, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -50,71 +54,92 @@ Partial Class Form1
         '
         Me.mnuArchivo.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuArchivoSalir})
         Me.mnuArchivo.Name = "mnuArchivo"
-        Me.mnuArchivo.Size = New System.Drawing.Size(88, 29)
+        Me.mnuArchivo.Size = New System.Drawing.Size(60, 22)
         Me.mnuArchivo.Text = "Archivo"
         '
         'mnuArchivoSalir
         '
         Me.mnuArchivoSalir.Name = "mnuArchivoSalir"
-        Me.mnuArchivoSalir.Size = New System.Drawing.Size(147, 34)
+        Me.mnuArchivoSalir.Size = New System.Drawing.Size(96, 22)
         Me.mnuArchivoSalir.Text = "Salir"
         '
         'mnuCramer
         '
         Me.mnuCramer.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuCramerE1, Me.mnuEM, Me.mnuGaussjordann, Me.mnuRegresionLS})
         Me.mnuCramer.Name = "mnuCramer"
-        Me.mnuCramer.Size = New System.Drawing.Size(154, 29)
+        Me.mnuCramer.Size = New System.Drawing.Size(103, 22)
         Me.mnuCramer.Text = "Método Cramer"
         '
         'mnuCramerE1
         '
         Me.mnuCramerE1.Name = "mnuCramerE1"
-        Me.mnuCramerE1.Size = New System.Drawing.Size(349, 34)
+        Me.mnuCramerE1.Size = New System.Drawing.Size(232, 22)
         Me.mnuCramerE1.Text = "Ejemplo 1"
         '
         'mnuEM
         '
         Me.mnuEM.Name = "mnuEM"
-        Me.mnuEM.Size = New System.Drawing.Size(349, 34)
+        Me.mnuEM.Size = New System.Drawing.Size(232, 22)
         Me.mnuEM.Text = "Principal Metodo de crammer"
         '
         'mnuGaussjordann
         '
         Me.mnuGaussjordann.Name = "mnuGaussjordann"
-        Me.mnuGaussjordann.Size = New System.Drawing.Size(349, 34)
+        Me.mnuGaussjordann.Size = New System.Drawing.Size(232, 22)
         Me.mnuGaussjordann.Text = "Metodo de Gauss Jordan "
+        '
+        'mnuRegresionLS
+        '
+        Me.mnuRegresionLS.Name = "mnuRegresionLS"
+        Me.mnuRegresionLS.Size = New System.Drawing.Size(232, 22)
+        Me.mnuRegresionLS.Text = "Regresion Lineal simple "
         '
         'mnuGaussJordan
         '
         Me.mnuGaussJordan.Name = "mnuGaussJordan"
-        Me.mnuGaussJordan.Size = New System.Drawing.Size(232, 29)
+        Me.mnuGaussJordan.Size = New System.Drawing.Size(152, 22)
         Me.mnuGaussJordan.Text = "Metodo de Gauss Jordan "
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = Global.EcuacionesLineales.My.Resources.Resources.cramer
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(214, 107)
+        Me.PictureBox1.Location = New System.Drawing.Point(150, 64)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(246, 293)
+        Me.PictureBox1.Size = New System.Drawing.Size(172, 176)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'mnuRegresionLS
+        'NewtonToolStripMenuItem
         '
-        Me.mnuRegresionLS.Name = "mnuRegresionLS"
-        Me.mnuRegresionLS.Size = New System.Drawing.Size(349, 34)
-        Me.mnuRegresionLS.Text = "Regresion Lineal simple "
+        Me.NewtonToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EcuacionesNoLinealesToolStripMenuItem, Me.PollinomioToolStripMenuItem})
+        Me.NewtonToolStripMenuItem.Name = "NewtonToolStripMenuItem"
+        Me.NewtonToolStripMenuItem.Size = New System.Drawing.Size(61, 22)
+        Me.NewtonToolStripMenuItem.Text = "Newton"
+        '
+        'EcuacionesNoLinealesToolStripMenuItem
+        '
+        Me.EcuacionesNoLinealesToolStripMenuItem.Name = "EcuacionesNoLinealesToolStripMenuItem"
+        Me.EcuacionesNoLinealesToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.EcuacionesNoLinealesToolStripMenuItem.Text = "Ecuaciones no lineales"
+        '
+        'PollinomioToolStripMenuItem
+        '
+        Me.PollinomioToolStripMenuItem.Name = "PollinomioToolStripMenuItem"
+        Me.PollinomioToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.PollinomioToolStripMenuItem.Text = "Pollinomio"
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(560, 270)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.Text = "Ecuaciones Lineales"
         Me.MenuStrip1.ResumeLayout(False)
@@ -135,4 +160,7 @@ Partial Class Form1
     Friend WithEvents mnuGaussJordan As ToolStripMenuItem
     Friend WithEvents mnuGaussjordann As ToolStripMenuItem
     Friend WithEvents mnuRegresionLS As ToolStripMenuItem
+    Friend WithEvents NewtonToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EcuacionesNoLinealesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PollinomioToolStripMenuItem As ToolStripMenuItem
 End Class

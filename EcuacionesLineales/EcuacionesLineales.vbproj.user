@@ -13,6 +13,12 @@
     <Compile Update="Gauss Jordan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Newton.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PolinomioNewton.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Regresion lineal simple.vb">
       <SubType>Form</SubType>
     </Compile>
